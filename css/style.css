@@ -1,0 +1,328 @@
+
+
+html{
+  font-family: sans-serif;
+}
+h1,h2,h3,button{
+  text-transform: uppercase;
+}
+h2{
+  font-family: 'Fredericka the Great',sans-serif;
+}
+
+
+
+
+header{
+	background: black;
+	width: 100%;
+	padding: 60px 0;
+	color: white;
+	text-align: center;
+}
+nav ul{
+	background-color: #323232;
+	color: white;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	overflow: hidden;
+	-webkit-transition: max-height 0.4s;
+	-ms-transition: max-height 0.4s;
+	-moz-transition: max-height 0.4s;
+	-o-transition: max-height 0.4s;
+	transition: max-height 0.4s;
+}
+nav ul li{
+	display: inline-block;
+	padding: 20px;
+  text-transform: uppercase;
+
+}
+nav ul li:hover{
+	background-color: black;
+}
+a{
+	text-decoration: none;
+	color: inherit;
+}
+ #wrapper .container{
+   min-height: 450px;
+   background:url('../img/building-classic.jpg') no-repeat 0 100%;
+   }
+section{
+	line-height: 1.5em;
+	font-size: 0.9em;
+	margin: 0 auto;
+	max-width: 1000px;
+}
+
+.handle {
+	width: 100%;
+	background-color: black;
+	box-sizing: border-box;
+	padding: 15px;
+	cursor: pointer;
+	color: white;
+	display: none;
+}
+p.menu{
+	display: inline-block;
+  text-transform: uppercase;
+
+}
+.menu_icon div {
+  background-color: white;
+  border-radius: 2px;
+  width: 35px;
+  height: 5px;
+  margin: 5px;
+}
+.menu_icon{
+	float: right;
+	margin: .5em 0;
+}
+@media screen and (max-width: 620px){
+	nav ul{
+		max-height: 0px;
+	}
+	nav ul li{
+		box-sizing: border-box;
+		width: 100%;
+		padding: 15px;
+	}
+	.showing{
+		max-height: 20em;
+	}
+	.handle{
+		display: block;
+	}
+	header h1{
+		font-size: 3em;
+	}
+}
+
+
+
+/* Landing background  */
+.container .landing-background  img{
+  width: 100%;
+  margin: 0;
+}
+.container-flow .post img{
+  width: 100%;
+}
+
+.container-flow{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 30px;
+}
+.post{
+  border: 1px solid #c1c1c1;
+  margin: 5px 10px;
+  padding: 10px;
+  text-align: center;
+  background: #ffffff;
+}
+
+
+/*  Reading Sectin */
+#reading{
+  margin-top: 50px;
+  width: 95%;
+}
+#reading h2{
+  text-transform: uppercase;
+
+}
+#reading .container{
+  text-align: center;
+  padding: 20px;
+  margin-top: 150px;
+  margin-bottom: 150px;
+  justify-content: center;
+}
+.btn-readmore{
+  background-color: black;
+  border: 1px solid black;
+ color: white;
+ padding: 10px 32px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 16px;
+ margin: 4px 2px;
+ cursor: pointer;
+}
+button:hover {
+  background-color: #ffffff;
+  color: black;
+  border: 1px solid black;
+}
+
+
+/* blog-article  */
+
+#blog-article h2{
+  text-transform: uppercase;
+
+}
+.news-blog{
+  margin: 5px 10px;
+}
+.news-blog img{
+  width: 100%;
+}
+.news-blog h3{
+  text-align: center;
+  decoration:none;
+  margin: 0;
+  padding: 5px;
+}
+
+/* Shop section */
+.shop-list img{
+  width: 100%;
+}
+#shop {
+  margin-bottom:  100px;
+  width: 95%;
+
+}
+#shop h2{
+text-align: center;
+ decoration:none;
+ text-transform: uppercase;
+}
+.shop-list{
+  text-align: center;
+  decoration:none;
+  padding-bottom: 20px;
+  justify-content: center;
+  margin: 5px 10px;
+}
+.shop-list h3, .shop-list p{
+  margin: 0px;
+  padding: 2px;
+}
+
+.shop-list:hover, .news-blog:hover{
+  box-shadow: 1px 8px 20px grey;
+ -webkit-transition:  box-shadow .5s ease-in;
+}
+
+/* about us section */
+#about-us{
+  margin-top: 50px;
+  width: 95%;
+
+}
+#about-us .about .Follow h1{
+  text-transform: capitalize;
+}
+.about{
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  margin: 5px 10px;
+  margin-bottom: 40px;
+
+}
+.about h3{
+  text-transform: uppercase;
+
+}
+.about i{
+  margin: 15px;
+}
+
+.about h1{
+  font-size: 80px;
+}
+.fill{
+  margin-top: 50px;
+}
+.form-d .fill input{
+  display: block;
+}
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+input[type=email], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  text-transform: uppercase;
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+input[type=submit]:hover {
+  background-color: #ffffff;
+  color: black;
+  border: 1px solid black;
+
+}
+
+
+
+/* footer */
+footer{
+  margin-top: 30px;
+  background-color: black;
+	text-align: center;
+	width: 100%;
+	font-size: 0.8em;
+	padding-bottom: 10px;
+  decoration:none;
+  justify-content: center;
+  color: #ffffff;
+  padding: 20px 0px;
+}
+
+
+@media screen and (max-width: 620px){
+  .container-flow{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .about{
+    width: auto;
+    border-bottom: 1px solid #c1c1c1;
+  }
+  #reading .container{
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .about,#shop{
+    margin-bottom: 10px;
+  }
+  header{
+  	padding: 40px 0;  
+  }
+
+
+
+
+
+}
